@@ -4,7 +4,8 @@
 The package helps discover correlations present in the edge
 dynamics of multiplex networks. Please see the following paper for
 information on "dynamical spillover".
-(url to be inserted)
+http://arxiv.org/abs/1505.04766
+
 
 
 Requirements
