@@ -139,7 +139,13 @@ def compute_counts_from_file(fname_edges, fname_nodes=None, method=None):
         if (nodeLine):
             timeStep_nodes, node = nodeLine.split(",")
         else:
-            nodeLine = None    
+            nodeLine = None
+
+    # Networkx graph objects initialized in the loop. Used to track
+    # edges
+    g_old = None
+    g_new = None
+            
     for line in fEdges:
         line = line.rstrip()
         edge = line.split(",")
