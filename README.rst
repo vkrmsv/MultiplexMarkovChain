@@ -1,3 +1,9 @@
+.. image:: https://travis-ci.org/vkrmsv/MultiplexMarkovChain.svg?branch=master
+    :target: https://travis-ci.org/vkrmsv/MultiplexMarkovChain
+.. image:: https://landscape.io/github/vkrmsv/MultiplexMarkovChain/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/vkrmsv/MultiplexMarkovChain/master
+   :alt: Code Health
+
 ``MultiplexMarkovChain`` is a Python package that helps discern
 "dynamical spillover" in multiplex networks.
 
